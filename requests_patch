@@ -6,4 +6,7 @@ requisicao = requests.patch(
     data=informacoes,
 )
 print(requisicao)
-print(requisicao.json())  #
+print(requisicao.json())  
+
+# A REQUEST.PATCH vai alterar o ambiente selecionado dentro do banco de dados
+# O dado que deseja alterar deve ser selecionado no link URL do banco de dados
