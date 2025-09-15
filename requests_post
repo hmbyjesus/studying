@@ -1,0 +1,8 @@
+import requests
+
+informacoes = [
+    {"nome": "Ana"}
+]
+requisicao = requests.post("https://teste-yt-445cb-default-rtdb.firebaseio.com/.json", json=informacoes)
+print(requisicao)
+print(requisicao.json())
