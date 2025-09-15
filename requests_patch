@@ -1,0 +1,9 @@
+import requests
+
+informacoes = '{"Nome": "Mike", "Sobrenome": "Jorge", "Idade": "27"}'
+requisicao = requests.patch(
+    "https://teste-yt-445cb-default-rtdb.firebaseio.com/-O_CamhvFsimNrkqwhje.json",
+    data=informacoes,
+)
+print(requisicao)
+print(requisicao.json())  #
