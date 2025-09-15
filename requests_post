@@ -24,3 +24,6 @@ informacoes = '{"Nome": "Amanda", "Idade": "30"}'
 requisicao = requests.post("https://teste-yt-445cb-default-rtdb.firebaseio.com/.json", data=informacoes)
 print(requisicao)
 print(requisicao.json())
+
+# Essas duas últimas formas de atribuir valores são as "mais corretas"
+# A REQUESTS.POST vai incluir valores ne endereço URL do banco de dados selecionado
