@@ -5,4 +5,8 @@ requisicao = requests.delete(
     "https://teste-yt-445cb-default-rtdb.firebaseio.com/-O_CamhvFsimNrkqwhje.json",
 )
 print(requisicao)
-print(requisicao.json())  #
+print(requisicao.json())  
+
+
+# A request.delete não precisa ser trazida com o data.requisicao
+# Isso porque você já especificou o que quer fazer com o dado selecionado = deletar 
