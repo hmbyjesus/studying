@@ -1,0 +1,5 @@
+import requests
+
+requisicao = requests.get("https://teste-yt-445cb-default-rtdb.firebaseio.com/.json")
+print(requisicao)
+print(requisicao.json())
