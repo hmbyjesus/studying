@@ -15,3 +15,12 @@ informacoes = '{"Nome": "Amanda"}'
 requisicao = requests.post("https://teste-yt-445cb-default-rtdb.firebaseio.com/.json", data=informacoes)
 print(requisicao)
 print(requisicao.json()) # 
+
+#---------------------------------------------------------
+
+import requests
+
+informacoes = '{"Nome": "Amanda", "Idade": "30"}'
+requisicao = requests.post("https://teste-yt-445cb-default-rtdb.firebaseio.com/.json", data=informacoes)
+print(requisicao)
+print(requisicao.json())
